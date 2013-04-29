@@ -322,7 +322,7 @@ function activitysticker_front_output_sticky( $sticky_update = false ) {
 	remove_filter( 'bp_get_activity_content_body', 'bp_activity_truncate_entry', 5 );
 	?>
 	<div class="sticky-activity">
-		<ul id="activity-sticker" class="activity-list item-list">
+		<ul id="activity-sticker" class="item-list">
 			<?php bp_get_template_part( 'activity/entry' ); ?>
 		</ul>
 	</div>

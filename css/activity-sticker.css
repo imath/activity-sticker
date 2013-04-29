@@ -1,4 +1,4 @@
-tr.activity-sticky, ul.activity-list li.sticky_update {
+tr.activity-sticky, ul#activity-sticker li.sticky_update {
 	background-color: #FFFCCF;
 }
 
@@ -6,6 +6,112 @@ tr.activity-sticky, ul.activity-list li.sticky_update {
 	display:none;
 }
 
-#buddypress #activity-sticker p {
+#activity-sticker p {
 	margin: 5px 0;
+}
+
+
+ul#activity-sticker li {
+	overflow: hidden;
+	padding: 15px 0 0;
+	list-style: none;
+}
+#activity-sticker .activity-avatar {
+	float: left;
+}
+ul#activity-sticker li.has-comments {
+	padding-bottom: 15px;
+}
+body.activity-permalink ul#activity-sticker li.has-comments {
+	padding-bottom: 0;
+}
+#activity-sticker li.mini {
+	font-size: 80%;
+	position: relative;
+}
+#activity-sticker li.mini .activity-avatar img.avatar,
+#activity-sticker li.mini .activity-avatar img.FB_profile_pic {
+	height: 20px;
+	margin-left: 30px;
+	width: 20px;
+}
+.activity-permalink #activity-sticker li.mini .activity-avatar img.avatar,
+.activity-permalink #activity-sticker li.mini .activity-avatar img.FB_profile_pic {
+	height: auto;
+	margin-left: 0;
+	width: auto;
+}
+body.activity-permalink #activity-sticker > li:first-child {
+	padding-top: 0;
+}
+#activity-sticker li .activity-content {
+	position: relative;
+}
+#activity-sticker li.mini .activity-content p {
+	margin: 0;
+}
+#activity-sticker li.mini .activity-comments {
+	clear: both;
+	font-size: 120%;
+}
+
+#activity-sticker li .activity-inreplyto {
+	color: #888;
+	font-size: 80%;
+}
+#activity-sticker li .activity-inreplyto > p {
+	margin: 0;
+	display: inline;
+}
+#activity-sticker li .activity-inreplyto blockquote,
+#activity-sticker li .activity-inreplyto div.activity-inner {
+	background: none;
+	border: none;
+	display: inline;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#activity-sticker .activity-content {
+	margin: 0 0 0 70px;
+}
+body.activity-permalink #activity-sticker li .activity-content {
+	border: none;
+	font-size: 100%;
+	line-height: 150%;
+	margin-left: 170px;
+	margin-right: 0;
+	padding: 0;
+}
+body.activity-permalink #activity-sticker li .activity-header > p {
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+#activity-sticker .activity-content .activity-header,
+#activity-sticker .activity-content .comment-header {
+	color: #888;
+	line-height: 220%;
+}
+
+#activity-sticker .activity-content .activity-header img.avatar {
+	float: none !important;
+	margin: 0 5px -8px 0 !important;
+}
+
+#activity-sticker .activity-content .activity-inner,
+#activity-sticker .activity-content blockquote {
+	margin: 10px 10px 5px 0;
+	overflow: hidden;
+}
+#activity-sticker li.new_forum_post .activity-content .activity-inner,
+#activity-sticker li.new_forum_topic .activity-content .activity-inner {
+	border-left: 2px solid #EAEAEA;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+
+#activity-sticker .activity-content img.thumbnail {
+	border: 2px solid #eee;
+	float: left;
+	margin: 0 10px 5px 0;
 }
