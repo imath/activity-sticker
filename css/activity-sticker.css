@@ -1,0 +1,11 @@
+tr.activity-sticky, ul.activity-list li.sticky_update {
+	background-color: #FFFCCF;
+}
+
+.sticky-hide{
+	display:none;
+}
+
+#buddypress #activity-sticker p {
+	margin: 5px 0;
+}
