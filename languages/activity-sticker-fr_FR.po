@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Activity Sticker 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/activity-sticker\n"
-"POT-Creation-Date: 2013-04-28 16:55:01+00:00\n"
-"PO-Revision-Date: 2013-04-28 18:55+0100\n"
+"POT-Creation-Date: 2013-05-19 12:10:52+00:00\n"
+"PO-Revision-Date: 2013-05-19 14:11+0100\n"
 "Last-Translator: imath <mathchristo@yahoo.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,31 +39,31 @@ msgstr "Contenu"
 msgid "New Sticky"
 msgstr "Nouvelle mise en avant"
 
-#: includes/functions.php:136
+#: includes/functions.php:138
 msgid "%s posted an update"
 msgstr "%s a publié une note"
 
-#: includes/functions.php:244
+#: includes/functions.php:246
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "Soumis le <a href=\"%1$s\">%2$s à %3$s</a>"
 
-#: includes/functions.php:269
+#: includes/functions.php:271
 msgid "Edit"
 msgstr "Modifier"
 
-#: includes/functions.php:271
+#: includes/functions.php:273
 msgid "Are you sure?"
 msgstr "Confirmez votre demande."
 
-#: includes/functions.php:271
+#: includes/functions.php:273
 msgid "Delete Permanently"
 msgstr "Supprimer définitivement"
 
-#: includes/functions.php:273
+#: includes/functions.php:275
 msgid "Unstick"
 msgstr "Ne plus mettre en avant"
 
-#: includes/functions.php:275
+#: includes/functions.php:277
 msgid "<a href=\"%1$s\">View Activity</a>"
 msgstr "<a href=\"%1$s\">Afficher l&#39;activité</a>"
 

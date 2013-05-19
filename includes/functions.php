@@ -88,10 +88,12 @@ function activitysticker_get_sticky_update() {
 	if( empty( $sticky_activity ) || !is_object( $sticky_activity ) )
 		return false;
 
-	$sticky_activity->user_email    = bp_core_get_user_email( $sticky_activity->user_id );
-    $sticky_activity->user_nicename = bp_core_get_username( $sticky_activity->user_id, true );
-    $sticky_activity->user_login    = bp_core_get_username( $sticky_activity->user_id, false, true );
-    $sticky_activity->display_name  = bp_core_get_user_displayname( $sticky_activity->user_id );
+	$user_data = bp_core_get_core_userdata( $sticky_activity->user_id );
+
+	$sticky_activity->user_email    = $user_data->user_email;
+    $sticky_activity->user_nicename = $user_data->user_nicename;
+    $sticky_activity->user_login    = $user_data->user_nicename;
+    $sticky_activity->display_name  = $user_data->display_name;
     $sticky_activity->user_fullname = $sticky_activity->display_name;
 
     $sticky_activity->children = false;

@@ -3,7 +3,7 @@
 Plugin Name: Activity Sticker
 Plugin URI: https://github.com/imath/activity-sticker/
 Description: Stick a BuddyPress activity to the top of the Site Wide Activity directory
-Version: 1.0-beta2
+Version: 1.0-beta3
 Author: imath
 Author URI: http://imathi.eu/
 License: GPLv2
@@ -40,7 +40,7 @@ final class ActivitySticker {
 	}
 	
 	function setup_globals() {
-		$this->version     = '1.0-beta2';
+		$this->version     = '1.0-beta3';
 		$this->plugin_dir  = plugin_dir_path( __FILE__ );
 		$this->plugin_url  = plugin_dir_url( __FILE__ );
 		$this->plugin_js   = trailingslashit( $this->plugin_url . 'js' );
