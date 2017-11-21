@@ -37,7 +37,9 @@ add_filter( 'bp_activity_user_can_delete', 'activity_sticker_filter_can_delete',
  */
 function activity_sticker_filter_cant_do( $can_do ) {
 
-	if( bp_get_activity_type() == 'sticky_update' )
+	global $activities_template;
+
+	if( ! empty( $activities_template->activity ) && bp_get_activity_type() == 'sticky_update' )
 		$can_do = false;
 
 	return $can_do;
