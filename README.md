@@ -1,9 +1,9 @@
 Activity Sticker
 ================
 
-Activity Sticker is an experimental BuddyPress 1.7 plugin to make an activity update stick at the top of the Site Wide Activity Directory.
+This WP/BP Plugin is no more supported and this repository is now archived.
 
-<img src="http://i917.photobucket.com/albums/ad19/im4th/activity-sticky-editor_zps56bc6b30.png" width="600px">
+Activity Sticker is an experimental BuddyPress 1.7 plugin to make an activity update stick at the top of the Site Wide Activity Directory.
 
 Once activated, the administrator of the community can :
 
